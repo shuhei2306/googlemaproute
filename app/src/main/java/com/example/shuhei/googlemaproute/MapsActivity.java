@@ -113,9 +113,9 @@ public class MapsActivity  extends FragmentActivity
         gMap2 = mapfragment2.getMap();
 
         //初期位置
-        LatLng location = new LatLng(34.802556297454004,135.53884506225586);
-        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
-        gMap2.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
+        LatLng latLng = new LatLng(34.71985,135.234388);
+        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 13));
+        gMap2.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 13));
 
 
         if(gMap!=null){
